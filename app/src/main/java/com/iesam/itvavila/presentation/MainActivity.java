@@ -1,8 +1,10 @@
-package com.iesam.itvavila;
+package com.iesam.itvavila.presentation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.iesam.itvavila.R;
 
 public class MainActivity extends AppCompatActivity {
 
