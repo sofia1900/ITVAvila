@@ -7,6 +7,7 @@ import android.os.Bundle;
 import com.iesam.itvavila.R;
 import com.iesam.itvavila.domain.models.Camion;
 import com.iesam.itvavila.domain.models.Coche;
+import com.iesam.itvavila.domain.models.Inspeccion;
 import com.iesam.itvavila.domain.models.Propietario;
 
 public class Main extends AppCompatActivity {
@@ -45,6 +46,22 @@ public class Main extends AppCompatActivity {
         propietario.setPoblacion("Ávila");
         propietario.setProvincia("Ávila");
         propietario.setTelefono("700 000 000");
+
+        //Crear inspección 1
+        Inspeccion inspeccion = new Inspeccion();
+        inspeccion.setCodigo("1");
+        inspeccion.setFecha("15-12-2022");
+        inspeccion.setResultado(true);
+        inspeccion.setPropietario(propietario);
+        inspeccion.setVehiculo(coche);
+
+        //Crear inspección 2
+        Inspeccion inspeccion2 = new Inspeccion();
+        inspeccion2.setCodigo("2");
+        inspeccion2.setFecha("15-12-2022");
+        inspeccion2.setResultado(false);
+        inspeccion2.setPropietario(propietario);
+        inspeccion2.setVehiculo(camion);
 
 
     }
