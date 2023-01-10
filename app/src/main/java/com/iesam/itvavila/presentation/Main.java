@@ -7,6 +7,7 @@ import android.os.Bundle;
 import com.iesam.itvavila.R;
 import com.iesam.itvavila.domain.models.Camion;
 import com.iesam.itvavila.domain.models.Coche;
+import com.iesam.itvavila.domain.models.Propietario;
 
 public class Main extends AppCompatActivity {
 
@@ -33,6 +34,17 @@ public class Main extends AppCompatActivity {
         coche.setAnnioMatriculacion("2022");
         coche.setMatricula("0000-GYU");
         coche.setNumPuertas(5);
+
+        //Crear Propietario
+        Propietario propietario = new Propietario();
+        propietario.setCodigo("1");
+        propietario.setDni("1234567-M");
+        propietario.setNombre("Propetario1");
+        propietario.setApellidos("Apellido1 Apellido2");
+        propietario.setDomicilio("Calle Jarama");
+        propietario.setPoblacion("Ávila");
+        propietario.setProvincia("Ávila");
+        propietario.setTelefono("700 000 000");
 
 
     }
