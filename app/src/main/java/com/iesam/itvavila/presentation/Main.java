@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.iesam.itvavila.R;
 
-public class MainActivity extends AppCompatActivity {
+public class Main extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
