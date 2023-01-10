@@ -63,6 +63,12 @@ public class Main extends AppCompatActivity {
         inspeccion2.setPropietario(propietario);
         inspeccion2.setVehiculo(camion);
 
+        InspeccionPrinter inspeccionPrinter = new InspeccionPrinter();
+        //Imprimo la inspección 1
+        inspeccionPrinter.imprimir(inspeccion);
+        //Imprimo la inspección 2
+        inspeccionPrinter.imprimir(inspeccion2);
+
 
     }
 }
