@@ -16,7 +16,7 @@ import com.iesam.itvavila.domain.usecase.ObtenerInspeccionUseCase;
 import com.iesam.itvavila.domain.usecase.ObtenerPropietarioUseCase;
 import com.iesam.itvavila.domain.usecase.ObtenerVehiculoUseCase;
 
-public class Main extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
